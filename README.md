@@ -1,7 +1,7 @@
 # Robot-Arm-Control-using-ROS2
 this project contains ROS 2 packages and configurations for controlling a robotic arm using:  - `joint_state_publisher` and `joint_state_publisher_gui` - MoveIt2 for motion planning and kinematics
 ---
-# Requirements :
+ Requirements :
 1- ubuntu 22.04
 2- ROS2 humble
 ---
@@ -42,7 +42,7 @@ to control the robotic arm by this method , add this line to the terminal :
 ros2 launch arduinobot_description display.launch.xml
 ```
 this windwo will show up : 
-<img width="1320" height="557" alt="Image" src="https://github.com/user-attachments/assets/96d37d06-71a3-43d8-9c47-df918f425114" />
+<img width="920" height="557" alt="Image" src="https://github.com/user-attachments/assets/96d37d06-71a3-43d8-9c47-df918f425114" />
 ---
 # Controlling the robot arm by Moveit and kinematics
 to control the robotic arm by this method , add this line to the terminal :
