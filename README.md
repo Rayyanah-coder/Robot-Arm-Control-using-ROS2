@@ -1,9 +1,9 @@
 # Robot-Arm-Control-using-ROS2
 this project contains ROS 2 packages and configurations for controlling a robotic arm using:  - `joint_state_publisher` and `joint_state_publisher_gui` - MoveIt2 for motion planning and kinematics
 ---
-# Requirements
-1- Ubuntu 22.04
-2- ROS 2 Humble
+# Requirements :
+1- ubuntu 22.04
+2- ROS2 humble
 ---
 # How to install
 1- install all these pacakges :
@@ -50,6 +50,7 @@ to control the robotic arm by this method , add this line to the terminal :
 ros2 launch  arduinobot_mc demo.launch.py
 ```
 this windwo will show up : 
+<img width="1120" height="356" alt="Image" src="https://github.com/user-attachments/assets/c5dc7e24-f836-4cf9-bd7d-828458e2299f" />
 ---
 # the difference between the two methods:
 see file ( Controlling the robot methods.txt )
