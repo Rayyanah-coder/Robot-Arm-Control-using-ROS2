@@ -53,7 +53,7 @@ this windwo will show up :
 <img width="1120" height="356" alt="Image" src="https://github.com/user-attachments/assets/c5dc7e24-f836-4cf9-bd7d-828458e2299f" />
 ---
 # the difference between the two methods:
-see file ( Controlling the robot methods.txt )
+see file [ Controlling the robot methods.txt ]
 ---
 # Credits
-Project completed as part of the Smart Methods AI & Robotics Internship.
+Project completed as part of the Smart Methods AI & Robotics Internship. @smart-methods
