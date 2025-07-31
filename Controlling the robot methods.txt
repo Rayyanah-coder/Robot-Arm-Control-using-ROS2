@@ -1,0 +1,25 @@
+1. Controlling the robot arm by joint_state_publisher
+What it is:
+This method simulates or publishes joint positions of the robot.
+
+How it works:
+You manually change joint angles using a GUI or YAML configuration.
+
+Purpose:
+Mostly for visualization and testing in simulation tools like RViz.
+
+Limitation:
+It doesn't involve real motion planning or physics. It’s static and ideal for setting joint values manually.
+
+2. Controlling the robot arm by MoveIt and kinematics
+What it is:
+This is a motion planning framework.
+
+How it works:
+You set a target pose (e.g. where the robot’s end-effector should go), and MoveIt calculates the joint angles automatically using inverse kinematics and path planning algorithms.
+
+Purpose:
+Used in real or complex simulation environments to plan and execute movements dynamically.
+
+Powerful for:
+Collision avoidance, trajectory planning, and more intelligent arm control.
